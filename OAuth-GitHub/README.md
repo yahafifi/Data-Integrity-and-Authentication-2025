@@ -11,10 +11,9 @@ This project demonstrates how to implement GitHub OAuth 2.0 login in a Flask web
 3. [Prerequisites](#prerequisites)
 4. [Step-by-Step Guide](#step-by-step-guide)
     - [1. Create GitHub OAuth App](#1-create-github-oauth-app)
-    - [2. Clone the Project](#2-clone-the-project)
-    - [3. Set Environment Variables](#3-set-environment-variables)
-    - [4. Install Dependencies](#4-install-dependencies)
-    - [5. Run the Application](#5-run-the-application)
+    - [2. Set Environment Variables](#2-set-environment-variables)
+    - [3. Install Dependencies](#3-install-dependencies)
+    - [4. Run the Application](#5-run-the-application)
 5. [Folder Structure](#folder-structure)
 
 ---
@@ -65,18 +64,10 @@ After login, the app displays:
     - `Client ID`
     - `Client Secret`
 
----
-
-### ✅ 2. Clone the Project
-
-```bash
-git clone https://github.com/yourusername/flask-github-oauth.git
-cd flask-github-oauth
-```
 
 ---
 
-### ✅ 3. Set Environment Variables
+### ✅ 2. Set Environment Variables
 
 Create a `.env` file in the root of the project:
 
@@ -88,7 +79,7 @@ GITHUB_OAUTH_CLIENT_SECRET=your_client_secret
 
 ---
 
-### ✅ 4. Install Dependencies
+### ✅ 3. Install Dependencies
 
 Use a virtual environment:
 
@@ -107,7 +98,7 @@ pip install Flask Flask-Dance python-dotenv
 
 ---
 
-### ✅ 5. Run the Application
+### ✅ 4. Run the Application
 
 ```bash
 flask run
