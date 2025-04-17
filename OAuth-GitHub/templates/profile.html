@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Profile</title>
+</head>
+<body style="text-align: center; margin-top: 100px;">
+    <h1>Hello, {{ user.login }} 👋</h1>
+    <img src="{{ user.avatar_url }}" width="150"><br><br>
+    <a href="{{ user.html_url }}" target="_blank">View GitHub Profile</a><br><br>
+    <a href="{{ url_for('logout') }}">
+        <button style="padding: 10px 20px; font-size: 18px;">Logout</button>
+    </a>
+</body>
+</html>
